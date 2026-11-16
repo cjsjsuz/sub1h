@@ -42,7 +42,7 @@ jobs:
           python-version: "3.12"
 
       - name: 生成本期订阅
-        run: python3 sub6.py --out out1h --limit 500 --timeout 2.5 --concurrency 500 --seed seed.txt
+        run: python3 sub6.py --out out1h --limit 500 --timeout 4 --concurrency 600 --seed seed.txt
 
       - name: 健康检查（存活太少就别覆盖线上）
         run: |
