@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16 14:10:06",
-  "generated_at_utc": "2026-11-16T06:10:06Z",
+  "generated_at": "2026-11-16 14:14:14",
+  "generated_at_utc": "2026-11-16T06:14:14Z",
   "sources": [
     {
       "name": "anaer",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Peasoft",
-      "count": 419,
+      "count": 440,
       "status": "ok"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "name": "mfuu",
-      "count": 57,
+      "count": 59,
       "status": "ok"
     },
     {
@@ -68,46 +68,47 @@
       "status": "ok"
     }
   ],
-  "raw": 7956,
-  "valid": 7956,
-  "uniq": 5839,
+  "raw": 7979,
+  "valid": 7979,
+  "uniq": 5867,
   "screened": true,
-  "tcp_alive": 2534,
+  "tcp_alive": 2573,
   "kept": 500,
   "by_region": {
     "IT": 11,
-    "??": 147,
+    "??": 148,
     "NL": 7,
-    "US": 179,
+    "US": 174,
     "RU": 4,
     "FR": 11,
     "AU": 4,
     "GB": 53,
-    "JP": 9,
-    "BR": 8,
+    "BR": 9,
     "CA": 13,
-    "ES": 15,
+    "ES": 16,
+    "JP": 10,
+    "DE": 6,
     "NO": 1,
-    "DE": 5,
     "UA": 1,
+    "CH": 4,
     "SG": 12,
-    "CH": 5,
     "AT": 1,
     "SE": 3,
     "HK": 4,
     "ZA": 2,
     "KR": 4,
-    "CZ": 1
+    "CZ": 1,
+    "TR": 1
   },
   "by_proto": {
-    "ss": 230,
+    "ss": 229,
     "vless": 36,
     "trojan": 27,
     "vmess": 202,
-    "hysteria2": 5
+    "hysteria2": 6
   },
   "tcp_ms_median": 138,
-  "elapsed_s": 21.5,
+  "elapsed_s": 22.1,
   "files": [
     "sub.txt",
     "links.txt",
