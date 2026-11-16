@@ -1,0 +1,79 @@
+# 节点订阅 · 每小时（sub1h）
+#
+# 部署：
+#   1. 仓库根目录放：sub6.py（引擎）、seed.txt（本机实测过闸的种子）、本文件
+#   2. 本文件内容放到 .github/workflows/sub1h.yml
+#   3. Settings → Actions → General → Workflow permissions 选
+#      "Read and write permissions"（下面的 permissions 块已声明，二选一都行）
+#
+# 每小时：采集 12 源 → 去重 → TCP 存活筛 → seed 置顶 → out1h/*
+#         → 提交回仓库 → 刷新 jsDelivr 各镜像缓存
+#
+# 订阅链接（v2rayNG 里填）：
+#   https://fastly.jsdelivr.net/gh/用户名/仓库@main/out1h/sub.txt
+#   备选镜像把域名换掉即可：cdn / gcore / testingcf .jsdelivr.net
+
+name: 节点订阅-1h
+
+on:
+  schedule:
+    - cron: "7 * * * *"        # UTC 每小时第 7 分 = 北京每小时 :07（避开整点排队）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TZ: Asia/Shanghai
+
+concurrency:
+  group: node-sub1h
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 生成本期订阅
+        run: python3 sub6.py --out out1h --limit 500 --timeout 2.5 --concurrency 500 --seed seed.txt
+
+      - name: 健康检查（存活太少就别覆盖线上）
+        run: |
+          KEPT=$(python3 -c "import json;print(json.load(open('out1h/stats.json'))['kept'])")
+          ALIVE=$(python3 -c "import json;print(json.load(open('out1h/stats.json'))['tcp_alive'] or 0)")
+          echo "kept=$KEPT alive=$ALIVE"
+          if [ "$KEPT" -lt 50 ]; then
+            echo "::error::本轮只保留 $KEPT 条，低于 50，判定异常，不提交（保留上一期）"
+            exit 1
+          fi
+
+      - name: 提交回仓库
+        run: |
+          git config user.name "sub1h-bot"
+          git config user.email "sub1h-bot@users.noreply.github.com"
+          git add -A out1h/
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            KEPT=$(python3 -c "import json;print(json.load(open('out1h/stats.json'))['kept'])")
+            git commit -m "sub1h $(date -u +%Y-%m-%dT%H:%MZ) kept=${KEPT}"
+            git push
+          fi
+
+      - name: 刷新 jsDelivr 各镜像缓存
+        run: |
+          for f in sub.txt links.txt clash.yaml stats.json report.md; do
+            for host in cdn fastly gcore testingcf; do
+              curl -sS --max-time 25 \
+                "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@${GITHUB_REF_NAME}/out1h/$f" \
+                -o /dev/null || true
+            done
+          done
+          echo "purge 请求已发"
