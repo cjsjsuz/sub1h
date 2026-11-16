@@ -67,13 +67,11 @@ jobs:
             git push
           fi
 
-      - name: 刷新 jsDelivr 各镜像缓存
+      - name: 刷新 jsDelivr 缓存（只 purge sub.txt）
         run: |
-          for f in sub.txt links.txt clash.yaml stats.json report.md; do
-            for host in cdn fastly gcore testingcf; do
-              curl -sS --max-time 25 \
-                "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@${GITHUB_REF_NAME}/out1h/$f" \
-                -o /dev/null || true
-            done
-          done
-          echo "purge 请求已发"
+          # purge.jsdelivr.net 是统一入口，一次清理对所有镜像生效；
+          # 每个文件每小时的 purge 次数有节流（throttled=true，重置约 1 小时），
+          # 所以只打客户端真正拉取的 sub.txt，别把额度浪费在 links/clash/stats 上。
+          curl -sS --max-time 25 \
+            "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@${GITHUB_REF_NAME}/out1h/sub.txt" \
+            | head -c 400 || true
