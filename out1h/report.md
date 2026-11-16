@@ -1,40 +1,40 @@
 # 本轮订阅生成报告
 
-生成时间：2026-11-16 14:14:14（北京时间）
+生成时间：2026-11-16 23:36:34（北京时间）
 
 ## 漏斗
 
 | 阶段 | 数量 |
 |---|---|
-| 原始解析 | 7979 |
-| 合法 | 7979 |
-| 去重 | 5867 |
-| TCP 存活 | 2573 |
+| 原始解析 | 7504 |
+| 合法 | 7504 |
+| 去重 | 5595 |
+| TCP 存活 | 2295 |
 | 最终保留 | 500 |
 
 ## 源状态
 
 - anaer: 2157 条（ok）
-- mahdibland: 4465 条（ok）
-- Peasoft: 440 条（ok）
+- mahdibland: 4460 条（ok）
+- Peasoft: 0 条（失败 HTTPError）
 - Eternity: 200 条（ok）
-- Pawdroid: 10 条（ok）
+- Pawdroid: 11 条（ok）
 - roosterkid: 0 条（ok）
-- mheidari-ss: 548 条（ok）
-- mfuu: 59 条（ok）
+- mheidari-ss: 523 条（ok）
+- mfuu: 56 条（ok）
 - Barabama: 20 条（ok）
 - DeltaKronecker: 0 条（ok）
 - Ruk1ng001: 17 条（ok）
-- awesome-vpn: 25 条（ok）
+- awesome-vpn: 22 条（ok）
 - seed: 38 条（ok）
 
 ## 地区分布
 
-US:174 ??:148 GB:53 ES:16 CA:13 SG:12 IT:11 FR:11 JP:10 BR:9 NL:7 DE:6 RU:4 AU:4 CH:4 HK:4 KR:4 SE:3 ZA:2 NO:1 UA:1 AT:1 CZ:1 TR:1
+US:190 ??:159 GB:54 ES:14 IT:11 FR:11 CA:9 SG:9 BR:7 NL:6 JP:6 DE:5 AU:3 CH:3 RU:2 KR:2 HK:2 ZA:2 AT:1 NO:1 PL:1 UA:1 SE:1
 
 ## 协议分布
 
-ss:229 vmess:202 vless:36 trojan:27 hysteria2:6
+vmess:255 ss:209 vless:24 trojan:12
 
 ## 说明
 
