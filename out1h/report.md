@@ -1,40 +1,40 @@
 # 本轮订阅生成报告
 
-生成时间：2026-11-17 17:06:00（北京时间）
+生成时间：2026-11-18 02:30:39（北京时间）
 
 ## 漏斗
 
 | 阶段 | 数量 |
 |---|---|
-| 原始解析 | 7935 |
-| 合法 | 7935 |
-| 去重 | 5832 |
-| TCP 存活 | 2516 |
+| 原始解析 | 7956 |
+| 合法 | 7956 |
+| 去重 | 5843 |
+| TCP 存活 | 2532 |
 | 最终保留 | 500 |
 
 ## 源状态
 
 - anaer: 2166 条（ok）
-- mahdibland: 4460 条（ok）
+- mahdibland: 4459 条（ok）
 - Peasoft: 401 条（ok）
-- Eternity: 199 条（ok）
-- Pawdroid: 12 条（ok）
+- Eternity: 198 条（ok）
+- Pawdroid: 17 条（ok）
 - roosterkid: 0 条（ok）
 - mheidari-ss: 541 条（ok）
 - mfuu: 53 条（ok）
 - Barabama: 20 条（ok）
 - DeltaKronecker: 0 条（ok）
 - Ruk1ng001: 23 条（ok）
-- awesome-vpn: 22 条（ok）
+- awesome-vpn: 40 条（ok）
 - seed: 38 条（ok）
 
 ## 地区分布
 
-US:177 ??:151 GB:53 ES:16 CA:15 JP:12 IT:11 SG:11 FR:9 BR:8 NL:7 DE:5 KR:5 AU:4 CH:4 HK:3 SE:2 ZA:2 RU:1 CZ:1 NO:1 UA:1 AT:1
+??:169 US:164 GB:51 CA:16 ES:13 IT:11 FR:11 SG:11 JP:9 NL:7 BR:7 DE:6 AU:4 CH:4 HK:3 SE:3 KR:3 RU:2 ZA:2 CZ:1 NO:1 AT:1 UA:1
 
 ## 协议分布
 
-ss:215 vmess:212 vless:37 trojan:31 hysteria2:5
+ss:217 vmess:212 vless:34 trojan:32 hysteria2:5
 
 ## 说明
 
