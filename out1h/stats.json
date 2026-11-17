@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16 23:36:34",
-  "generated_at_utc": "2026-11-16T15:36:34Z",
+  "generated_at": "2026-11-17 08:11:05",
+  "generated_at_utc": "2026-11-17T00:11:05Z",
   "sources": [
     {
       "name": "anaer",
@@ -14,8 +14,8 @@
     },
     {
       "name": "Peasoft",
-      "count": 0,
-      "status": "失败 HTTPError"
+      "count": 430,
+      "status": "ok"
     },
     {
       "name": "Eternity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "mheidari-ss",
-      "count": 523,
+      "count": 545,
       "status": "ok"
     },
     {
@@ -68,45 +68,46 @@
       "status": "ok"
     }
   ],
-  "raw": 7504,
-  "valid": 7504,
-  "uniq": 5595,
+  "raw": 7956,
+  "valid": 7956,
+  "uniq": 5861,
   "screened": true,
-  "tcp_alive": 2295,
+  "tcp_alive": 2546,
   "kept": 500,
   "by_region": {
     "IT": 11,
-    "??": 159,
+    "??": 152,
     "NL": 6,
-    "US": 190,
-    "RU": 2,
-    "AU": 3,
+    "RU": 3,
+    "US": 170,
     "FR": 11,
-    "JP": 6,
-    "BR": 7,
-    "CA": 9,
-    "GB": 54,
-    "KR": 2,
-    "ES": 14,
+    "JP": 12,
+    "AU": 4,
+    "CA": 17,
+    "SG": 11,
+    "BR": 8,
+    "GB": 56,
     "DE": 5,
-    "AT": 1,
+    "ES": 14,
     "NO": 1,
-    "CH": 3,
-    "PL": 1,
+    "HK": 3,
+    "CH": 4,
+    "AT": 1,
     "UA": 1,
-    "SE": 1,
-    "HK": 2,
-    "SG": 9,
-    "ZA": 2
+    "SE": 3,
+    "KR": 4,
+    "ZA": 2,
+    "CZ": 1
   },
   "by_proto": {
-    "ss": 209,
-    "vless": 24,
-    "vmess": 255,
-    "trojan": 12
+    "ss": 223,
+    "vless": 39,
+    "trojan": 27,
+    "vmess": 206,
+    "hysteria2": 5
   },
-  "tcp_ms_median": 32,
-  "elapsed_s": 58.2,
+  "tcp_ms_median": 82,
+  "elapsed_s": 26.7,
   "files": [
     "sub.txt",
     "links.txt",
