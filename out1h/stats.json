@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18 02:30:39",
-  "generated_at_utc": "2026-11-17T18:30:39Z",
+  "generated_at": "2026-11-18 09:34:45",
+  "generated_at_utc": "2026-11-18T01:34:45Z",
   "sources": [
     {
       "name": "anaer",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Peasoft",
-      "count": 401,
+      "count": 385,
       "status": "ok"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "mheidari-ss",
-      "count": 541,
+      "count": 616,
       "status": "ok"
     },
     {
@@ -68,46 +68,46 @@
       "status": "ok"
     }
   ],
-  "raw": 7956,
-  "valid": 7956,
-  "uniq": 5843,
+  "raw": 8015,
+  "valid": 8015,
+  "uniq": 5916,
   "screened": true,
-  "tcp_alive": 2532,
+  "tcp_alive": 2608,
   "kept": 500,
   "by_region": {
     "IT": 11,
-    "??": 169,
-    "NL": 7,
+    "??": 170,
+    "NL": 8,
     "RU": 2,
-    "US": 164,
+    "US": 163,
     "FR": 11,
-    "HK": 3,
-    "AU": 4,
     "CA": 16,
-    "BR": 7,
-    "GB": 51,
-    "ES": 13,
-    "DE": 6,
-    "CZ": 1,
-    "NO": 1,
-    "AT": 1,
-    "UA": 1,
-    "SE": 3,
-    "JP": 9,
+    "AU": 4,
+    "BR": 6,
     "CH": 4,
+    "HK": 2,
+    "ES": 13,
+    "GB": 52,
+    "DE": 6,
+    "JP": 9,
+    "AT": 1,
+    "NO": 1,
+    "SE": 2,
+    "UA": 1,
+    "KR": 4,
+    "CZ": 1,
     "SG": 11,
-    "ZA": 2,
-    "KR": 3
+    "ZA": 2
   },
   "by_proto": {
-    "ss": 217,
-    "vless": 34,
-    "vmess": 212,
-    "trojan": 32,
-    "hysteria2": 5
+    "ss": 241,
+    "vless": 32,
+    "vmess": 188,
+    "trojan": 33,
+    "hysteria2": 6
   },
-  "tcp_ms_median": 104,
-  "elapsed_s": 24.8,
+  "tcp_ms_median": 116,
+  "elapsed_s": 23.8,
   "files": [
     "sub.txt",
     "links.txt",
