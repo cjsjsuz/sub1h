@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-18 09:34:45",
-  "generated_at_utc": "2026-11-18T01:34:45Z",
+  "generated_at": "2026-11-18 18:02:32",
+  "generated_at_utc": "2026-11-18T10:02:32Z",
   "sources": [
     {
       "name": "anaer",
-      "count": 2166,
+      "count": 1795,
       "status": "ok"
     },
     {
       "name": "mahdibland",
-      "count": 4459,
+      "count": 4373,
       "status": "ok"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "Pawdroid",
-      "count": 17,
+      "count": 8,
       "status": "ok"
     },
     {
@@ -39,12 +39,12 @@
     },
     {
       "name": "mfuu",
-      "count": 53,
+      "count": 54,
       "status": "ok"
     },
     {
       "name": "Barabama",
-      "count": 20,
+      "count": 59,
       "status": "ok"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "awesome-vpn",
-      "count": 40,
+      "count": 9,
       "status": "ok"
     },
     {
@@ -68,46 +68,47 @@
       "status": "ok"
     }
   ],
-  "raw": 8015,
-  "valid": 8015,
-  "uniq": 5916,
+  "raw": 7558,
+  "valid": 7557,
+  "uniq": 6044,
   "screened": true,
-  "tcp_alive": 2608,
+  "tcp_alive": 2354,
   "kept": 500,
   "by_region": {
     "IT": 11,
-    "??": 170,
-    "NL": 8,
+    "??": 252,
+    "NL": 7,
     "RU": 2,
-    "US": 163,
     "FR": 11,
+    "AU": 2,
+    "US": 90,
     "CA": 16,
-    "AU": 4,
-    "BR": 6,
+    "HK": 4,
     "CH": 4,
-    "HK": 2,
-    "ES": 13,
-    "GB": 52,
-    "DE": 6,
     "JP": 9,
-    "AT": 1,
-    "NO": 1,
-    "SE": 2,
-    "UA": 1,
     "KR": 4,
+    "GB": 48,
+    "DE": 8,
+    "NO": 1,
+    "UA": 1,
+    "AT": 1,
     "CZ": 1,
-    "SG": 11,
-    "ZA": 2
+    "SG": 9,
+    "ES": 13,
+    "SE": 2,
+    "ZA": 2,
+    "PL": 1,
+    "BR": 1
   },
   "by_proto": {
-    "ss": 241,
-    "vless": 32,
-    "vmess": 188,
-    "trojan": 33,
-    "hysteria2": 6
+    "ss": 240,
+    "vless": 30,
+    "vmess": 196,
+    "hysteria2": 6,
+    "trojan": 28
   },
-  "tcp_ms_median": 116,
-  "elapsed_s": 23.8,
+  "tcp_ms_median": 95,
+  "elapsed_s": 23.1,
   "files": [
     "sub.txt",
     "links.txt",
