@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19 16:42:40",
-  "generated_at_utc": "2026-11-19T08:42:40Z",
+  "generated_at": "2026-11-20 02:11:14",
+  "generated_at_utc": "2026-11-19T18:11:14Z",
   "sources": [
     {
       "name": "anaer",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Peasoft",
-      "count": 389,
+      "count": 366,
       "status": "ok"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "mheidari-ss",
-      "count": 632,
+      "count": 636,
       "status": "ok"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "awesome-vpn",
-      "count": 9,
+      "count": 20,
       "status": "ok"
     },
     {
@@ -68,47 +68,47 @@
       "status": "ok"
     }
   ],
-  "raw": 7871,
-  "valid": 7871,
-  "uniq": 5877,
+  "raw": 7863,
+  "valid": 7863,
+  "uniq": 5878,
   "screened": true,
-  "tcp_alive": 2558,
+  "tcp_alive": 2566,
   "kept": 500,
   "by_region": {
-    "IT": 11,
-    "??": 180,
+    "IT": 12,
+    "??": 197,
     "NL": 7,
     "RU": 2,
-    "US": 156,
-    "FR": 9,
-    "HK": 3,
+    "US": 134,
+    "HK": 5,
+    "FR": 11,
     "AU": 4,
+    "GB": 53,
     "CH": 4,
-    "SG": 13,
-    "CA": 13,
-    "BR": 7,
-    "JP": 7,
-    "GB": 54,
-    "DE": 7,
-    "ES": 11,
+    "CA": 11,
+    "DE": 6,
+    "CZ": 1,
+    "ES": 15,
+    "UA": 1,
     "AT": 1,
     "SE": 1,
-    "UA": 1,
-    "CZ": 1,
+    "JP": 7,
+    "SG": 14,
     "ZA": 2,
-    "KR": 4,
+    "BR": 7,
     "NO": 1,
+    "KR": 3,
     "TH": 1
   },
   "by_proto": {
-    "ss": 254,
+    "ss": 259,
     "vless": 33,
-    "vmess": 189,
-    "trojan": 18,
+    "vmess": 183,
+    "trojan": 19,
     "hysteria2": 6
   },
-  "tcp_ms_median": 141,
-  "elapsed_s": 24.2,
+  "tcp_ms_median": 120,
+  "elapsed_s": 24.1,
   "files": [
     "sub.txt",
     "links.txt",
