@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20 17:56:43",
-  "generated_at_utc": "2026-11-20T09:56:43Z",
+  "generated_at": "2026-11-21 02:32:41",
+  "generated_at_utc": "2026-11-20T18:32:41Z",
   "sources": [
     {
       "name": "anaer",
@@ -9,7 +9,7 @@
     },
     {
       "name": "mahdibland",
-      "count": 4415,
+      "count": 4411,
       "status": "ok"
     },
     {
@@ -19,12 +19,12 @@
     },
     {
       "name": "Eternity",
-      "count": 198,
+      "count": 199,
       "status": "ok"
     },
     {
       "name": "Pawdroid",
-      "count": 6,
+      "count": 12,
       "status": "ok"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "name": "mfuu",
-      "count": 54,
+      "count": 56,
       "status": "ok"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "awesome-vpn",
-      "count": 26,
+      "count": 35,
       "status": "ok"
     },
     {
@@ -68,47 +68,46 @@
       "status": "ok"
     }
   ],
-  "raw": 7946,
-  "valid": 7946,
-  "uniq": 5889,
+  "raw": 7960,
+  "valid": 7960,
+  "uniq": 5888,
   "screened": true,
   "tcp_alive": 2543,
   "kept": 500,
   "by_region": {
     "IT": 12,
-    "??": 186,
-    "NL": 7,
+    "??": 189,
+    "NL": 8,
     "RU": 2,
-    "US": 148,
+    "US": 143,
     "FR": 12,
     "AU": 4,
     "CA": 14,
-    "CH": 3,
-    "JP": 9,
-    "GB": 50,
-    "DE": 7,
-    "ES": 11,
-    "CZ": 1,
-    "AT": 1,
-    "SE": 1,
+    "CH": 5,
+    "GB": 49,
+    "JP": 8,
+    "DE": 6,
+    "ES": 14,
     "HK": 1,
-    "UA": 1,
+    "AT": 1,
     "NO": 1,
+    "SE": 1,
+    "UA": 1,
+    "SG": 12,
     "ZA": 2,
-    "SG": 13,
+    "CZ": 1,
     "BR": 10,
-    "PL": 2,
-    "KR": 2
+    "KR": 4
   },
   "by_proto": {
-    "ss": 263,
+    "ss": 261,
     "vless": 34,
-    "vmess": 175,
-    "hysteria2": 9,
-    "trojan": 19
+    "vmess": 174,
+    "trojan": 22,
+    "hysteria2": 9
   },
-  "tcp_ms_median": 86,
-  "elapsed_s": 22.4,
+  "tcp_ms_median": 123,
+  "elapsed_s": 24.2,
   "files": [
     "sub.txt",
     "links.txt",
