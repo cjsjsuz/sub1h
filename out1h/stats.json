@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21 16:13:20",
-  "generated_at_utc": "2026-11-21T08:13:20Z",
+  "generated_at": "2026-11-22 00:44:12",
+  "generated_at_utc": "2026-11-21T16:44:12Z",
   "sources": [
     {
       "name": "anaer",
@@ -9,7 +9,7 @@
     },
     {
       "name": "mahdibland",
-      "count": 4427,
+      "count": 4394,
       "status": "ok"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "Eternity",
-      "count": 198,
+      "count": 200,
       "status": "ok"
     },
     {
@@ -68,46 +68,46 @@
       "status": "ok"
     }
   ],
-  "raw": 7589,
-  "valid": 7588,
-  "uniq": 6051,
+  "raw": 7558,
+  "valid": 7557,
+  "uniq": 6036,
   "screened": true,
-  "tcp_alive": 2213,
+  "tcp_alive": 2290,
   "kept": 500,
   "by_region": {
     "IT": 12,
     "NL": 7,
-    "??": 254,
+    "??": 260,
     "RU": 2,
-    "US": 96,
+    "US": 92,
     "FR": 11,
-    "CA": 14,
-    "GB": 47,
-    "CH": 4,
-    "DE": 7,
-    "CZ": 1,
-    "ES": 9,
-    "HK": 4,
+    "HK": 3,
+    "AU": 2,
+    "GB": 46,
+    "CH": 5,
+    "CA": 12,
+    "DE": 8,
+    "ES": 11,
     "NO": 1,
-    "AT": 1,
     "UA": 1,
-    "JP": 6,
+    "AT": 1,
     "SE": 1,
-    "SG": 9,
+    "JP": 8,
+    "SG": 10,
     "ZA": 2,
-    "BR": 8,
-    "KR": 2,
-    "AU": 1
+    "CZ": 1,
+    "BR": 1,
+    "KR": 3
   },
   "by_proto": {
-    "ss": 249,
-    "vless": 25,
-    "vmess": 203,
+    "ss": 251,
+    "vless": 24,
+    "vmess": 195,
     "hysteria2": 7,
-    "trojan": 16
+    "trojan": 23
   },
-  "tcp_ms_median": 56,
-  "elapsed_s": 30.8,
+  "tcp_ms_median": 79,
+  "elapsed_s": 24.9,
   "files": [
     "sub.txt",
     "links.txt",
