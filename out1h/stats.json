@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25 20:40:09",
-  "generated_at_utc": "2026-11-25T12:40:09Z",
+  "generated_at": "2026-11-26 06:26:13",
+  "generated_at_utc": "2026-11-25T22:26:13Z",
   "sources": [
     {
       "name": "anaer",
@@ -59,7 +59,7 @@
     },
     {
       "name": "awesome-vpn",
-      "count": 33,
+      "count": 26,
       "status": "ok"
     },
     {
@@ -68,46 +68,45 @@
       "status": "ok"
     }
   ],
-  "raw": 7493,
-  "valid": 7492,
-  "uniq": 6018,
+  "raw": 7486,
+  "valid": 7485,
+  "uniq": 6006,
   "screened": true,
-  "tcp_alive": 2282,
+  "tcp_alive": 2296,
   "kept": 500,
   "by_region": {
     "IT": 12,
-    "??": 246,
-    "NL": 6,
+    "??": 264,
+    "NL": 7,
     "RU": 2,
-    "US": 103,
     "AU": 1,
-    "GB": 48,
+    "GB": 49,
+    "JP": 7,
+    "KR": 3,
+    "DE": 5,
+    "US": 88,
     "CA": 9,
     "FR": 8,
-    "AT": 1,
-    "ES": 11,
-    "DE": 5,
-    "HK": 3,
-    "UA": 1,
     "NO": 1,
-    "SE": 1,
+    "HK": 4,
     "CH": 4,
-    "JP": 6,
+    "ES": 14,
+    "UA": 1,
+    "AT": 1,
+    "SE": 1,
     "ZA": 2,
-    "SG": 11,
-    "PL": 9,
-    "KR": 4,
-    "BR": 6
+    "SG": 10,
+    "PL": 7
   },
   "by_proto": {
-    "ss": 224,
-    "vless": 25,
-    "vmess": 228,
-    "hysteria2": 12,
-    "trojan": 11
+    "ss": 226,
+    "vless": 26,
+    "vmess": 227,
+    "hysteria2": 11,
+    "trojan": 10
   },
-  "tcp_ms_median": 22,
-  "elapsed_s": 31.8,
+  "tcp_ms_median": 58,
+  "elapsed_s": 34.0,
   "files": [
     "sub.txt",
     "links.txt",

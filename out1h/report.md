@@ -1,15 +1,15 @@
 # 本轮订阅生成报告
 
-生成时间：2026-11-25 20:40:09（北京时间）
+生成时间：2026-11-26 06:26:13（北京时间）
 
 ## 漏斗
 
 | 阶段 | 数量 |
 |---|---|
-| 原始解析 | 7493 |
-| 合法 | 7492 |
-| 去重 | 6018 |
-| TCP 存活 | 2282 |
+| 原始解析 | 7486 |
+| 合法 | 7485 |
+| 去重 | 6006 |
+| TCP 存活 | 2296 |
 | 最终保留 | 500 |
 
 ## 源状态
@@ -25,16 +25,16 @@
 - Barabama: 25 条（ok）
 - DeltaKronecker: 0 条（失败 HTTPError）
 - Ruk1ng001: 6 条（ok）
-- awesome-vpn: 33 条（ok）
+- awesome-vpn: 26 条（ok）
 - seed: 38 条（ok）
 
 ## 地区分布
 
-??:246 US:103 GB:48 IT:12 ES:11 SG:11 CA:9 PL:9 FR:8 NL:6 JP:6 BR:6 DE:5 CH:4 KR:4 HK:3 RU:2 ZA:2 AU:1 AT:1 UA:1 NO:1 SE:1
+??:264 US:88 GB:49 ES:14 IT:12 SG:10 CA:9 FR:8 NL:7 JP:7 PL:7 DE:5 HK:4 CH:4 KR:3 RU:2 ZA:2 AU:1 NO:1 UA:1 AT:1 SE:1
 
 ## 协议分布
 
-vmess:228 ss:224 vless:25 hysteria2:12 trojan:11
+vmess:227 ss:226 vless:26 hysteria2:11 trojan:10
 
 ## 说明
 
