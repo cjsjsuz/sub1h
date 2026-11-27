@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27 16:11:28",
-  "generated_at_utc": "2026-11-27T08:11:28Z",
+  "generated_at": "2026-11-28 02:52:42",
+  "generated_at_utc": "2026-11-27T18:52:42Z",
   "sources": [
     {
       "name": "anaer",
@@ -9,7 +9,7 @@
     },
     {
       "name": "mahdibland",
-      "count": 4403,
+      "count": 4356,
       "status": "ok"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "Pawdroid",
-      "count": 14,
+      "count": 9,
       "status": "ok"
     },
     {
@@ -34,17 +34,17 @@
     },
     {
       "name": "mheidari-ss",
-      "count": 800,
+      "count": 803,
       "status": "ok"
     },
     {
       "name": "mfuu",
-      "count": 46,
+      "count": 128,
       "status": "ok"
     },
     {
       "name": "Barabama",
-      "count": 6,
+      "count": 23,
       "status": "ok"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "awesome-vpn",
-      "count": 31,
+      "count": 25,
       "status": "ok"
     },
     {
@@ -68,45 +68,45 @@
       "status": "ok"
     }
   ],
-  "raw": 7659,
-  "valid": 7658,
-  "uniq": 6175,
+  "raw": 7703,
+  "valid": 7702,
+  "uniq": 6115,
   "screened": true,
-  "tcp_alive": 2409,
+  "tcp_alive": 2394,
   "kept": 500,
   "by_region": {
-    "IT": 11,
-    "??": 251,
-    "NL": 8,
+    "IT": 10,
+    "??": 253,
+    "NL": 7,
     "RU": 3,
+    "US": 104,
     "AU": 1,
-    "JP": 6,
-    "GB": 49,
-    "CA": 7,
-    "US": 107,
-    "FR": 7,
-    "DE": 8,
-    "ES": 16,
-    "CH": 4,
-    "SE": 1,
-    "AT": 1,
-    "HK": 4,
-    "NO": 1,
-    "SG": 7,
-    "ZA": 2,
-    "UA": 1,
+    "GB": 47,
+    "HK": 3,
+    "CA": 11,
+    "JP": 5,
     "KR": 3,
-    "BR": 2
+    "FR": 7,
+    "CH": 4,
+    "SG": 4,
+    "NO": 1,
+    "AT": 1,
+    "SE": 1,
+    "UA": 1,
+    "ES": 15,
+    "DE": 7,
+    "ZA": 2,
+    "BR": 10
   },
   "by_proto": {
-    "ss": 229,
-    "vless": 25,
-    "hysteria2": 12,
-    "vmess": 222,
-    "trojan": 12
+    "ss": 230,
+    "vless": 22,
+    "hysteria2": 13,
+    "vmess": 216,
+    "trojan": 19
   },
-  "tcp_ms_median": 72,
-  "elapsed_s": 35.3,
+  "tcp_ms_median": 59,
+  "elapsed_s": 39.5,
   "files": [
     "sub.txt",
     "links.txt",
