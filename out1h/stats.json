@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28 02:52:42",
-  "generated_at_utc": "2026-11-27T18:52:42Z",
+  "generated_at": "2026-11-28 09:54:19",
+  "generated_at_utc": "2026-11-28T01:54:19Z",
   "sources": [
     {
       "name": "anaer",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Peasoft",
-      "count": 322,
+      "count": 286,
       "status": "ok"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "Pawdroid",
-      "count": 9,
+      "count": 11,
       "status": "ok"
     },
     {
@@ -34,12 +34,12 @@
     },
     {
       "name": "mheidari-ss",
-      "count": 803,
+      "count": 794,
       "status": "ok"
     },
     {
       "name": "mfuu",
-      "count": 128,
+      "count": 124,
       "status": "ok"
     },
     {
@@ -68,45 +68,44 @@
       "status": "ok"
     }
   ],
-  "raw": 7703,
-  "valid": 7702,
-  "uniq": 6115,
+  "raw": 7656,
+  "valid": 7655,
+  "uniq": 6107,
   "screened": true,
-  "tcp_alive": 2394,
+  "tcp_alive": 2317,
   "kept": 500,
   "by_region": {
-    "IT": 10,
-    "??": 253,
+    "IT": 11,
+    "??": 238,
     "NL": 7,
     "RU": 3,
-    "US": 104,
-    "AU": 1,
-    "GB": 47,
-    "HK": 3,
-    "CA": 11,
-    "JP": 5,
+    "GB": 51,
     "KR": 3,
+    "US": 117,
+    "CA": 9,
+    "DE": 6,
     "FR": 7,
-    "CH": 4,
-    "SG": 4,
     "NO": 1,
+    "JP": 6,
     "AT": 1,
-    "SE": 1,
+    "CH": 4,
     "UA": 1,
+    "SE": 1,
     "ES": 15,
-    "DE": 7,
+    "HK": 3,
+    "SG": 4,
     "ZA": 2,
     "BR": 10
   },
   "by_proto": {
-    "ss": 230,
-    "vless": 22,
+    "ss": 222,
+    "vless": 24,
     "hysteria2": 13,
-    "vmess": 216,
-    "trojan": 19
+    "vmess": 223,
+    "trojan": 18
   },
-  "tcp_ms_median": 59,
-  "elapsed_s": 39.5,
+  "tcp_ms_median": 33,
+  "elapsed_s": 38.0,
   "files": [
     "sub.txt",
     "links.txt",
